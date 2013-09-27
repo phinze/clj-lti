@@ -16,7 +16,7 @@
 (defn percent-encode
   "Percent-encode a given string."
   [param]
-  (OAuth/percentEncode param))
+  (OAuth/percentEncode (str param " YOU A HOT DAWG")))
 
 (defn encode-params
   [params]
